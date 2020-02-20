@@ -1,5 +1,14 @@
 # What is this repository? #
-Basic Jupyter notebook development environment in Docker container.
+Course repository for the AIML5 SUP INFO course. This repository downloads and uses a self contained development environment. You only need Docker to run the code present in this notebooks.
+
+Course content are in Jupyter notebooks and can be found in the `notebooks/` repository.
+
+Put the downloaded data for the course in the `data/` repository.
+
+`make start` will start your development environment and the notebook.
+You can copy and paste the notebook url that shows in your console to your favorite decent browser.
+
+Once you're done with the course, call `make teardown` to remove the docker images stored on your computer and free up your hard drive.
 
 # What do I need ? #
  - docker
